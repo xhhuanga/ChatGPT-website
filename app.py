@@ -17,7 +17,7 @@ def index():
 def chat():
     messages = request.form.get("prompts", None)
     apiKey = request.form.get("apiKey", None)
-    model = request.form.get("model", "gpt-3.5-turbo-16k-0613")
+    model = request.form.get("model", "gpt-4")
     if messages is None:
         return jsonify({"error": {"message": "请输入prompts！", "type": "invalid_request_error", "code": ""}})
 
