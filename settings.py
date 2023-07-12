@@ -3,10 +3,10 @@
 SECRET_KEY = "asghnjadfbtywyn"
 
 # openAi api key
-OPENAI_API_KEY = "36fe0504771f44aa9650c33f41566754"
+OPENAI_API_KEY = ""
 
 # openAi 官方 api
-#URL = "https://api.openai.com/v1/chat/completions"
+URL = "https://api.openai.com/v1/chat/completions"
 
 # openAi 代理 api
-URL = "https://yunlin.openai.azure.com/"
+#URL = "https://yunlin.openai.azure.com/"
