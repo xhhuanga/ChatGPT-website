@@ -9,4 +9,4 @@ OPENAI_API_KEY = "36fe0504771f44aa9650c33f41566754"
 #URL = "https://api.openai.com/v1/chat/completions"
 
 # openAi 代理 api
-URL = "https://yunlin.openai.azure.com/openai/deployments/test-35-turbo/chat/completions?api-version=2023-03-15-preview"
+URL = "https://yunlin.openai.azure.com/"
